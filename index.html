@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <ol class="numbers">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ol>
+    <div id="coffee">
+        <img src="Emoji.png" alt="Coffee and code">
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Contacts</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>User 1</td>
+                <td>43321-323</td>
+                <td>+1234557890</td>
+                <td>example@email.com</td>
+            </tr>
+            <tr>
+                <td>User 2</td>
+                <td>23423-523</td>
+                <td>+0987654321</td>
+                <td>example@gmail.com</td>
+            </tr>
+            <tr>
+                <td>User 3</td>
+                <td>34353-213</td>
+                <td>+1234567890</td>
+                <td>example@gmail.com</td>
+            </tr>
+            <tr>
+                <td>User 4</td>
+                <td>31453-978</td>
+                <td>+1234567890</td>
+                <td>example@gmail.com</td>
+            </tr>
+            <tr>
+                <td>User 5</td>
+                <td>98453-382</td>
+                <td>+0343262363</td>
+                <td>example@gmail.com</td>
+            </tr>
+        </tbody>
+    </table><br>
+    <fieldset id="registration">
+        <form action="#" method="get">
+            <label for="name">Full Name
+                <input type="text" name="name" id="name" placeholder="Name" required><br>
+            </label>
+            <label for="email">Email
+                <input type="email" name="email" id="email" placeholder="example@gmail.com" required><br>
+            </label>
+            <label for="password">Password
+                <input type="password" name="password" id="password" minlength="6" required><br>
+            </label>
+            <label for="birthDate">Enter your date of birth
+                <input type="date" name="birthDate" id="birthDate" required><br>
+            </label>
+            <label for="location">Choose your continent
+                <select name="location" id="location">
+                    <option value="Africa">Africa</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Antarctica">Antarctica</option>
+                    <option value="North America">North America</option>
+                    <option value="South America">South America</option>
+                </select>
+            </label><br>
+            <label for="Gender">Choose your gender</label><br>
+            <label for="male">
+                <input type="radio" name="Gender" id="male">Male
+            </label><br>
+            <label for="female">
+                <input type="radio" name="Gender" id="female">Female
+            </label><br>
+            <label for="other">
+                <input type="radio" name="Gender" id="other">Prefer not to say
+            </label><br><br>
+            <label for="newsletter">
+                <input type="checkbox" name="newsletter" id="newsletter">Subscribe to our newsletter
+            </label><br>
+            <label for="notifications">
+                <input type="checkbox" name="notifications" id="notifications">Receive notifications
+            </label><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </fieldset>
+
+</body>
+
+</html>

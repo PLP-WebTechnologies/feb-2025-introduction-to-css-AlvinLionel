@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+table,th,td{
+    border: 1px solid black;
+}
+.numbers{
+    list-style-type: lower-alpha;
+    padding-left: 20px;
+}
+.numbers li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#coffee{
+    width: 300px;
+}
+#coffee img{
+    width: 100%;
+    height: auto;
+}
+#registration{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(211, 208, 208);
+}
